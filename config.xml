@@ -2,19 +2,18 @@
 
 <widget xmlns="http://www.w3.org/ns/widgets"
         xmlns:gap="http://phonegap.com/ns/1.0"
-        id="com.inspre_me"
+        id="com.inspre_me_192018"
         versionCode="1"
-        version="1.0.0">
+        version="beta_1.0">
 
     <name>InspireMe</name>
 
-    <description>Customisez your homescreen with daily inspirational quotes !</description>
+    <description>Customisez your Home Screen with daily inspirational quotes !</description>
 
     <author href="https://github.com/iamRahul1973" email="rahulkr1973@gmail.com">
         iamRahul95
     </author>
-
-    <plugin name="cordova-plugin-whitelist" />
+    <preference name="permissions" value="none" />
     <access origin="*" />
 
 </widget>
