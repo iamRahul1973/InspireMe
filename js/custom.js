@@ -6,6 +6,7 @@
 $(function () {
     var rand = Math.floor(Math.random() * 8);
     $('body').addClass('inspireMeBg-' + rand);
+    $.support.cors(true);
     $.ajax({
         // url: 'https://talaikis.com/api/quotes/random/',
         // url:'http://quotes.rest/qod.json',
