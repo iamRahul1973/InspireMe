@@ -25,6 +25,10 @@ $(function () {
             var author = data.quoteAuthor;
             $('#main-quote').find('h3').html(quote);
             $('#author').html(author);
+        },
+        fail: function () {
+            $('#main-quote').find('h3').html('HELLO WORLD !');
+            $('#author').html('iamRahul95');
         }
     });
 });
