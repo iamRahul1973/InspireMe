@@ -26,8 +26,8 @@ $(function () {
             $('#main-quote').find('h3').html(quote);
             $('#author').html(author);
         },
-        error: function () {
-            $('#main-quote').find('h3').html('HELLO WORLD !');
+        error: function (error) {
+            $('#main-quote').find('h3').html(error);
             $('#author').html('iamRahul95');
         }
     });
